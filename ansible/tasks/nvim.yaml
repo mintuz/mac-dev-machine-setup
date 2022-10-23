@@ -1,9 +1,0 @@
-- name: Install neovim
-  community.general.homebrew:
-    name: neovim
-    state: latest
-  tags:
-    - install
-    - productivity
-    - cli
-    - nvim
