@@ -4,6 +4,7 @@
     state: latest
   ignore_errors: yes
   with_items:
+    - appcleaner
     - downie
     - rotato
     - google-chrome
