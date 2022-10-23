@@ -2,6 +2,7 @@
   community.general.homebrew:
     name: "{{ item }}"
     state: latest
+  ignore_errors: yes
   with_items:
     - tmux
     - fzf

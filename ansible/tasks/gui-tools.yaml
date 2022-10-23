@@ -4,6 +4,8 @@
     state: latest
   ignore_errors: yes
   with_items:
+    - downie
+    - rotato
     - google-chrome
     - brave-browser
     - firefox

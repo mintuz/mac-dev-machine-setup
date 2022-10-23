@@ -44,19 +44,6 @@
     - install
     - osx
 
-- name: Show hidden files in finder
-  osx_defaults:
-    domain: com.apple.Finder
-    key: AppleShowAllFiles
-    type: bool
-    value: true
-    state: present
-  tags:
-    - install
-    - osx
-
-# - name: map Esc(ape) to Caps Lock
-#   command: hidutil property --set '{"UserKeyMapping":[{"HIDKeyboardModifierMappingSrc":0x700000039,"HIDKeyboardModifierMappingDst":0x700000029}]}'
 - name: Set automatic software updates to true
   osx_defaults:
     domain: /Library/Preferences/com.apple.SoftwareUpdate
