@@ -17,7 +17,7 @@
   git_config:
     name: user.email
     scope: global
-    value: "paul.hammond@gmail.com"
+    value: "mintuz1990@gmail.com"
   tags:
     - git-personal
 
@@ -25,7 +25,7 @@
   git_config:
     name: user.name
     scope: global
-    value: "Paul Hammond"
+    value: "Adam Bulmer"
   tags:
     - git-personal
 
@@ -34,14 +34,6 @@
     name: pull.rebase
     scope: global
     value: "true"
-  tags:
-    - git-personal
-
-- name: Set nvim as default git editor
-  community.general.git_config:
-    name: core.editor
-    scope: global
-    value: nvim
   tags:
     - git-personal
 
@@ -66,22 +58,6 @@
     name: init.defaultBranch
     scope: global
     value: main
-  tags:
-    - git-personal
-
-- name: Set global git gpg key
-  community.general.git_config:
-    name: user.signingkey
-    scope: global
-    value: 5016355A88C64BE0
-  tags:
-    - git-personal
-
-- name: Set global git always gpgsign
-  community.general.git_config:
-    name: commit.gpgsign
-    scope: global
-    value: "true"
   tags:
     - git-personal
 

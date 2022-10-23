@@ -8,13 +8,9 @@
 - name: Installing fonts
   homebrew_cask:
     name:
-      - font-hack-nerd-font
       - font-fira-code
-      - font-meslo-lg-nerd-font
-      - font-meslo-for-powerline
-      - font-monocraft
-      - font-iosevka
-      - font-iosevka-nerd-font
+      - font-hack
+      - font-recursive-code
       - font-jetbrains-mono
   tags:
     - install

@@ -1,23 +1,111 @@
-- name: Install Magnet
+- name: Install Drafts
   ignore_errors: yes
   tags:
     - app-store
   community.general.mas:
-    id: 441258766
+    id: 1435957248
     state: latest
 
-- name: Install DaisyDisk
+- name: Install MeetingBar
   ignore_errors: yes
   tags:
     - app-store
   community.general.mas:
-    id: 411643860
+    id: 1532419400
     state: latest
 
-- name: Install Bear
+- name: Install DarkRoom
   ignore_errors: yes
   tags:
     - app-store
   community.general.mas:
-    id: 1091189122
+    id: 953286746
+    state: latest
+
+- name: Install Day One
+  ignore_errors: yes
+  tags:
+    - app-store
+  community.general.mas:
+    id: 1055511498
+    state: latest
+
+- name: Install GoodNotes
+  ignore_errors: yes
+  tags:
+    - app-store
+  community.general.mas:
+    id: 1444383602
+    state: latest
+
+- name: Install Dark Noise
+  ignore_errors: yes
+  tags:
+    - app-store
+  community.general.mas:
+    id: 1465439395
+    state: latest
+
+- name: Install Amphetamine
+  ignore_errors: yes
+  tags:
+    - app-store
+  community.general.mas:
+    id: 937984704
+    state: latest
+
+- name: Install Bakery
+  ignore_errors: yes
+  tags:
+    - app-store
+  community.general.mas:
+    id: 1575220747
+    state: latest
+
+- name: Install XCode
+  ignore_errors: yes
+  tags:
+    - app-store
+  community.general.mas:
+    id: 497799835
+    state: latest
+
+- name: Install PopClip
+  ignore_errors: yes
+  tags:
+    - app-store
+  community.general.mas:
+    id: 445189367
+    state: latest
+
+- name: Install TestFlight
+  ignore_errors: yes
+  tags:
+    - app-store
+  community.general.mas:
+    id: 899247664
+    state: latest
+
+- name: Install Kindle
+  ignore_errors: yes
+  tags:
+    - app-store
+  community.general.mas:
+    id: 405399194
+    state: latest
+
+- name: Install RocketSim
+  ignore_errors: yes
+  tags:
+    - app-store
+  community.general.mas:
+    id: 1504940162
+    state: latest
+
+- name: Install 1Blocker
+  ignore_errors: yes
+  tags:
+    - app-store
+  community.general.mas:
+    id: 1365531024
     state: latest
