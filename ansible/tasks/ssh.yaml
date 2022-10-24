@@ -8,13 +8,11 @@
   copy:
     src: "./.ssh/{{ personal_public_ssh_key }}"
     dest: "{{ lookup('env', 'HOME') }}/.ssh/{{ personal_public_ssh_key }}"
-    mode: 0644
   tags:
     - ssh
 - name: Install work public SSH Key
   copy:
     src: "./.ssh/{{ work_public_ssh_key }}"
     dest: "{{ lookup('env', 'HOME') }}/.ssh/{{ work_public_ssh_key }}"
-    mode: 0644
   tags:
     - ssh
