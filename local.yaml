@@ -15,10 +15,10 @@
         - install
         - core
   tasks:
+    - include: ansible/tasks/security.yaml
     - include: ansible/tasks/git-setup.yaml
     - include: ansible/tasks/cli-tools.yaml
     - include: ansible/tasks/gui-tools.yaml
-    - include: ansible/tasks/ssh.yaml
     - include: ansible/tasks/zsh.yaml
     - include: ansible/tasks/app-store-apps.yaml
     - include: ansible/tasks/fonts.yaml
