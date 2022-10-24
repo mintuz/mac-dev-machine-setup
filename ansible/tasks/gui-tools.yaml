@@ -1,4 +1,4 @@
-- name: Install core packages via brew casks
+- name: Install Apps
   community.general.homebrew_cask:
     name: "{{ item }}"
     state: latest
@@ -31,3 +31,18 @@
     - install
     - gui
     - productivity
+# - name: Install Latest XCode
+#   ansible.builtin.shell: xcodes install --latest --experimental-unxip
+#   tags:
+#     - install
+#     - gui
+#     - xcode
+#     - productivity
+
+# - name: Install XCode Beta
+#   ansible.builtin.shell: xcodes install --latest-prerelease --experimental-unxip
+#   tags:
+#     - install
+#     - gui
+#     - xcode
+#     - productivity

@@ -1,4 +1,4 @@
-- name: Install useful cli packages
+- name: Install CLI packages
   community.general.homebrew:
     name: "{{ item }}"
     state: latest
@@ -8,10 +8,11 @@
     - fzf
     - z
     - gh
+    - aria2
+    - curl
     - wget
     - yarn
     - tree
-    - curl
     - thefuck
     - mas
     - starship
@@ -24,6 +25,7 @@
     - asciinema
     - exa
     - bat
+    - robotsandpencils/made/xcodes
   tags:
     - install
     - productivity
