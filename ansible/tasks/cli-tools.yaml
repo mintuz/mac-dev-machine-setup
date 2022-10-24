@@ -10,6 +10,7 @@
     - gh
     - wget
     - yarn
+    - tree
     - curl
     - thefuck
     - mas
@@ -20,6 +21,10 @@
     - glances
     - tldr
     - 1password-cli
+    - fd
+    - asciinema
+    - exa
+    - bat
   tags:
     - install
     - productivity
