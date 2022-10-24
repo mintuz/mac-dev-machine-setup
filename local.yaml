@@ -15,5 +15,4 @@
     - include: ansible/tasks/fonts.yaml
     - include: ansible/tasks/osx.yaml
     - include: ansible/tasks/node.yaml
-    # Dotfiles need updating to my modern config
-    # - include: ansible/tasks/dotfiles.yaml
+    - include: ansible/tasks/dotfiles.yaml
