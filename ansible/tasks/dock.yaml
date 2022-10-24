@@ -20,25 +20,25 @@
     - /Applications/Mail.app
     - /Applications/Calendar.app
     - "'' --type spacer --section apps --after Calendar"
-    - /Applications/Music.app
-    - /Applications/Podcasts.app
-    - "'' --type spacer --section apps --after Podcasts"
+    - /Applications/Messages.app
+    - /Applications/Slack.app
+    - /Applications/Discord.app
+    - "'' --type spacer --section apps --after Discord"
+    - /Applications/Visual\ Studio\ Code.app
+    - /Applications/XCode.app
+    - /Applications/Warp.app
+    - "'' --type spacer --section apps --after Warp"
+    - /Applications/Brave\ Browser.app
+    - /Applications/Safari.app
+    - /Applications/Firefox.app
+    - "'' --type spacer --section apps --after Firefox"
     - /Applications/Drafts.app
     - /Applications/Obsidian.app
     - /Applications/Todoist.app
     - /Applications/1Password.app
     - "'' --type spacer --section apps --after 1Password"
-    - /Applications/Visual\ Studio\ Code.app
-    - /Applications/XCode.app
-    - /Applications/Warp.app
-    - "'' --type spacer --section apps --after Warp"
-    - /Applications/Messages.app
-    - /Applications/Slack.app
-    - /Applications/Discord.app
-    - "'' --type spacer --section apps --after Discord"
-    - /Applications/Brave\ Browser.app
-    - /Applications/Safari.app
-    - /Applications/Firefox.app
+    - /Applications/Music.app
+    - /Applications/Podcasts.app
   ignore_errors: yes
   tags:
     - install
