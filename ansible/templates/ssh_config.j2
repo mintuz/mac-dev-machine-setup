@@ -1,0 +1,8 @@
+# By default, use the 1Password SSH agent for all hosts
+Host *
+  IdentityAgent ~/.1password/agent.sock
+
+Host github.com
+  # Downloaded from 1Password App
+  IdentityFile ~/.ssh/{{machine_type}}_github.pub
+  IdentitiesOnly yes

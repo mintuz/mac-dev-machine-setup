@@ -1,4 +1,12 @@
 - hosts: localhost
+  vars:
+    work_public_ssh_key: "work_github.pub"
+    personal_public_ssh_key: "personal_github.pub"
+  vars_prompt:
+    - name: machine_type
+      prompt: Machine personal or work?
+      default: personal
+      private: no
   pre_tasks:
     - name: Update Brew
       community.general.homebrew:
@@ -10,6 +18,7 @@
     - include: ansible/tasks/git-setup.yaml
     - include: ansible/tasks/cli-tools.yaml
     - include: ansible/tasks/gui-tools.yaml
+    - include: ansible/tasks/ssh.yaml
     - include: ansible/tasks/zsh.yaml
     - include: ansible/tasks/app-store-apps.yaml
     - include: ansible/tasks/fonts.yaml
