@@ -25,24 +25,10 @@
     - istat-menus
     - camo-studio
     - raycast
+    - amethyst
     - popclip
     - obsidian
   tags:
     - install
     - gui
     - productivity
-# - name: Install Latest XCode
-#   ansible.builtin.shell: xcodes install --latest --experimental-unxip
-#   tags:
-#     - install
-#     - gui
-#     - xcode
-#     - productivity
-
-# - name: Install XCode Beta
-#   ansible.builtin.shell: xcodes install --latest-prerelease --experimental-unxip
-#   tags:
-#     - install
-#     - gui
-#     - xcode
-#     - productivity
