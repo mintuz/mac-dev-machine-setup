@@ -109,3 +109,11 @@
   community.general.mas:
     id: 1365531024
     state: latest
+
+- name: Infuse
+  ignore_errors: yes
+  tags:
+    - app-store
+  community.general.mas:
+    id: 1136220934
+    state: latest
