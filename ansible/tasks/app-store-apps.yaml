@@ -22,12 +22,12 @@
     id: 953286746
     state: latest
 
-- name: Install Day One
+- name: Install Everlog
   ignore_errors: yes
   tags:
     - app-store
   community.general.mas:
-    id: 1055511498
+    id: 1519935634
     state: latest
 
 - name: Install GoodNotes
