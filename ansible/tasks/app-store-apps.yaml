@@ -22,6 +22,14 @@
     id: 953286746
     state: latest
 
+- name: Install Yoink
+  ignore_errors: yes
+  tags:
+    - app-store
+  community.general.mas:
+    id: 457622435
+    state: latest
+
 - name: Install Everlog
   ignore_errors: yes
   tags:
