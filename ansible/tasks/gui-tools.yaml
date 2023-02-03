@@ -4,32 +4,40 @@
     state: latest
   ignore_errors: yes
   with_items:
+    # Mac Uiltiies
     - appcleaner
     - downie
-    - rotato
-    - google-chrome
-    - brave-browser
-    - firefox
-    - dropbox
-    - discord
-    - zoom
-    - slack
     - unclack
-    - gas-mask
-    - sketch
-    - paw
-    - warp
-    - visual-studio-code
     - cleanshot
     - bettertouchtool
     - bartender
     - istat-menus
-    - camo-studio
     - raycast
+    - lunar
+    - gas-mask
     - amethyst
     - popclip
+    # Software Development
+    - paw
+    - warp
+    - visual-studio-code
+    # App Development
+    - rotato
+    # Web Development
+    - google-chrome
+    - brave-browser
+    - firefox
+    # PKM
     - obsidian
-    - lunar
+    - dropbox
+    # Social
+    - discord
+    - zoom
+    - slack
+    - camo-studio
+    # Design
+    - sketch
+    # Misc
     - vlc
   tags:
     - install

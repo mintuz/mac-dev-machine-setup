@@ -5,6 +5,7 @@
   ignore_errors: yes
   with_items:
     - tmux
+    - zellij
     - fzf
     - z
     - gh
@@ -27,6 +28,7 @@
     - bat
     - robotsandpencils/made/xcodes
     - rust
+    - hammerspoon
   tags:
     - install
     - productivity
