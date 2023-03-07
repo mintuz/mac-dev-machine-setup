@@ -29,6 +29,7 @@
     - robotsandpencils/made/xcodes
     - rust
     - hammerspoon
+    - deno
   tags:
     - install
     - productivity
