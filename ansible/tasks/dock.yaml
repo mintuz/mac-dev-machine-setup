@@ -22,9 +22,8 @@
     - /Applications/Warp.app
     - "'' --type spacer --section apps --after Warp"
     - /Applications/Brave\ Browser.app
-    - /Applications/Safari.app
-    - /Applications/Firefox.app
-    - "'' --type spacer --section apps --after Firefox"
+    - /Applications/Arc.app
+    - "'' --type spacer --section apps --after Arc"
     - /Applications/Drafts.app
     - /Applications/Obsidian.app
     - /Applications/Todoist.app
