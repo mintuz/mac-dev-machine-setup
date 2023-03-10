@@ -4,7 +4,6 @@
     state: latest
   ignore_errors: yes
   with_items:
-    - tmux
     - zellij
     - fzf
     - z
