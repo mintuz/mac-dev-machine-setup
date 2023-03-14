@@ -153,3 +153,11 @@
   community.general.mas:
     id: 1136220934
     state: latest
+
+- name: Install Menubar X
+  ignore_errors: yes
+  tags:
+    - app-store
+  community.general.mas:
+    id: 1575588022
+    state: latest
