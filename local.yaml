@@ -21,7 +21,7 @@
     - include: ansible/tasks/gui-tools.yaml
     - include: ansible/tasks/zsh.yaml
     - include: ansible/tasks/app-store-apps.yaml
-    - include: ansible/tasks/fonts.yaml
+    # - include: ansible/tasks/fonts.yaml
     - include: ansible/tasks/osx.yaml
     - include: ansible/tasks/node.yaml
     - include: ansible/tasks/dotfiles.yaml
