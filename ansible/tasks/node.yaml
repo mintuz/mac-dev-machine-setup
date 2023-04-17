@@ -11,6 +11,8 @@
     source ~/.zshrc
     nvm install --lts
     nvm alias default
+  args:
+    executable: /bin/zsh
   tags:
     - install
     - node
