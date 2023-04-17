@@ -58,6 +58,9 @@
     # Dock: speed up Mission Control animations
     - defaults write com.apple.dock expose-animation-duration -float 0.1
 
+    # Dock: Remove animation delay
+    - defaults write com.apple.dock autohide-delay -float 0
+
     # Finder: empty Trash securely by default
     - defaults write com.apple.finder EmptyTrashSecurely -bool true
 
