@@ -30,6 +30,7 @@
     - rust
     - hammerspoon
     - deno
+    - terraform
   tags:
     - install
     - productivity
