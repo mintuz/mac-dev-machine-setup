@@ -8,6 +8,7 @@
     - 1password-cli
     - authy
     - little-snitch
+    - micro-snitch
   tags:
     - install
     - ssh
