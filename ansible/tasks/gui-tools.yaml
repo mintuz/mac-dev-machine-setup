@@ -43,6 +43,7 @@
     - sketch
     # Misc
     - vlc
+    - little-navmap
   tags:
     - install
     - gui
