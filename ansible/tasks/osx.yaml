@@ -60,7 +60,7 @@
     - defaults write com.apple.dock expose-animation-duration -float 0.1
 
     ## Dock: Hide Dock
-    - defaults write com.apple.dock autohide -bool true
+    - defaults write com.apple.dock autohide -bool false
 
     # Dock: Remove animation delay
     - defaults write com.apple.dock autohide-delay -float 0
