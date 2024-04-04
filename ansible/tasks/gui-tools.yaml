@@ -20,6 +20,7 @@
     - alt-tab
     - popclip
     - steelseries-gg
+    - protonvpn
     # Software Development
     - paw
     - warp
@@ -35,6 +36,8 @@
     # PKM
     - obsidian
     - dropbox
+    - proton-mail
+    - proton-drive
     # Social
     - discord
     - zoom
@@ -45,6 +48,7 @@
     # Misc
     - vlc
     - little-navmap
+    - steam
   tags:
     - install
     - gui

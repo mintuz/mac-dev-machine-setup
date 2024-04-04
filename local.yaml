@@ -15,14 +15,14 @@
         - install
         - core
   tasks:
-    - include: ansible/tasks/security.yaml
-    - include: ansible/tasks/git-setup.yaml
-    - include: ansible/tasks/cli-tools.yaml
-    - include: ansible/tasks/gui-tools.yaml
-    - include: ansible/tasks/zsh.yaml
-    - include: ansible/tasks/app-store-apps.yaml
+    - include_tasks: ansible/tasks/security.yaml
+    - include_tasks: ansible/tasks/git-setup.yaml
+    - include_tasks: ansible/tasks/cli-tools.yaml
+    - include_tasks: ansible/tasks/gui-tools.yaml
+    - include_tasks: ansible/tasks/zsh.yaml
+    - include_tasks: ansible/tasks/app-store-apps.yaml
     # - include: ansible/tasks/fonts.yaml
-    - include: ansible/tasks/osx.yaml
-    - include: ansible/tasks/node.yaml
-    - include: ansible/tasks/dotfiles.yaml
-    - include: ansible/tasks/dock.yaml
+    - include_tasks: ansible/tasks/osx.yaml
+    - include_tasks: ansible/tasks/node.yaml
+    - include_tasks: ansible/tasks/dotfiles.yaml
+    - include_tasks: ansible/tasks/dock.yaml
