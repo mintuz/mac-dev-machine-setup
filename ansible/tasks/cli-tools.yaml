@@ -24,13 +24,18 @@
     - tldr
     - fd
     - asciinema
-    - exa
+    - eza
     - bat
     - robotsandpencils/made/xcodes
     - rust
     - hammerspoon
     - deno
     - terraform
+    - xcode-build-server
+    - xcbeautify
+    - swiftformat
+    # Apples
+    - swift-format
   tags:
     - install
     - productivity

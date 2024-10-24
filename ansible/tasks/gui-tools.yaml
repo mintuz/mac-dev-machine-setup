@@ -25,6 +25,7 @@
     - paw
     - warp
     - visual-studio-code
+    - cursor
     # App Development
     - rotato
     - blender
@@ -47,7 +48,6 @@
     - sketch
     # Misc
     - vlc
-    - little-navmap
     - steam
   tags:
     - install
