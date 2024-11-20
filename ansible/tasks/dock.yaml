@@ -17,16 +17,17 @@
   with_items:
     - /Applications/Home.app
     - "'' --type spacer --section apps --after Home"
-    - /Applications/Visual\ Studio\ Code.app
+    - /Applications/Cursor.app
     - /Applications/XCode.app
     - /Applications/Warp.app
     - "'' --type spacer --section apps --after Warp"
-    - /Applications/Brave\ Browser.app
+    - /Applications/Vivaldi.app
+    - /Applications/Safari.app
     - /Applications/Arc.app
     - "'' --type spacer --section apps --after Arc"
     - /Applications/Drafts.app
     - /Applications/Obsidian.app
-    - /Applications/Todoist.app
+    - /Applications/Things.app
     - /Applications/1Password.app
     - "'' --type spacer --section apps --after 1Password"
     - /Applications/Mail.app

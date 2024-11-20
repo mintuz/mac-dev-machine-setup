@@ -10,7 +10,6 @@
     - unclack
     - cleanshot
     - bettertouchtool
-    - bartender
     - istat-menus
     - raycast
     - lunar
@@ -24,14 +23,14 @@
     # Software Development
     - paw
     - warp
+    - tabby
     - visual-studio-code
     - cursor
+    - zed
     # App Development
     - rotato
-    - blender
-    - unity-hub
     # Web Development
-    - brave-browser
+    - vivaldi
     - arc
     - firefox
     # PKM

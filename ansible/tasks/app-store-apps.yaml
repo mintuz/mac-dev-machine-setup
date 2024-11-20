@@ -10,14 +10,6 @@
     id: 1435957248
     state: latest
 
-- name: Install Everlog
-  ignore_errors: yes
-  tags:
-    - app-store
-  community.general.mas:
-    id: 1519935634
-    state: latest
-
 - name: Install GoodNotes
   ignore_errors: yes
   tags:
@@ -83,18 +75,6 @@
     state: latest
 
 # ===================================
-# Social
-# ===================================
-
-- name: Install MeetingBar
-  ignore_errors: yes
-  tags:
-    - app-store
-  community.general.mas:
-    id: 1532419400
-    state: latest
-
-# ===================================
 # Utilities
 # ===================================
 
@@ -138,6 +118,15 @@
     id: 445189367
     state: latest
 
+- name: Install Menubar X
+  ignore_errors: yes
+  tags:
+    - app-store
+  community.general.mas:
+    id: 1575588022
+    state: latest
+
+# Safari Extensions
 - name: Install 1Blocker
   ignore_errors: yes
   tags:
@@ -146,10 +135,50 @@
     id: 1365531024
     state: latest
 
-- name: Install Menubar X
+- name: Install Wipr
   ignore_errors: yes
   tags:
     - app-store
   community.general.mas:
-    id: 1575588022
+    id: 1662217862
+    state: latest
+
+- name: Install Stop The Madness
+  ignore_errors: yes
+  tags:
+    - app-store
+  community.general.mas:
+    id: 6471380298
+    state: latest
+
+- name: Install Baking Soda
+  ignore_errors: yes
+  tags:
+    - app-store
+  community.general.mas:
+    id: 1601151613
+    state: latest
+
+- name: Install Vinegar
+  ignore_errors: yes
+  tags:
+    - app-store
+  community.general.mas:
+    id: 1591303229
+    state: latest
+
+- name: Install Sink It For Reddit
+  ignore_errors: yes
+  tags:
+    - app-store
+  community.general.mas:
+    id: 6449873635
+    state: latest
+
+- name: Install Consent-O-Matic
+  ignore_errors: yes
+  tags:
+    - app-store
+  community.general.mas:
+    id: 1606897889
     state: latest
