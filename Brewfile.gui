@@ -22,6 +22,7 @@ cask "cursor", greedy: true
 cask "codex-app", greedy: true
 cask "claude-code", greedy: true
 cask "rotato", greedy: true
+cask "rcmd", greedy: true
 cask "firefox", greedy: true
 cask "ungoogled-chromium", greedy: true
 cask "obsidian", greedy: true
