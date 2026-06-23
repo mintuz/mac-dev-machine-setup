@@ -7,8 +7,9 @@
     - productivity
 
 - name: Change shell to zsh
-  shell: chsh -s $(which zsh)
+  ansible.builtin.command: chsh -s /bin/zsh "{{ ansible_user_id }}"
   changed_when: true
+  when: (ansible_env.SHELL | default('') | basename) != "zsh"
   tags:
     - install
     - zsh

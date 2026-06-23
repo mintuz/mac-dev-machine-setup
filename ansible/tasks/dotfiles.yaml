@@ -22,6 +22,33 @@
     - stow
     - cli
 
+- name: Find macOS metadata files in dotfiles checkout
+  ansible.builtin.find:
+    paths: "{{ ansible_env.HOME }}/.dotfiles"
+    patterns: ".DS_Store"
+    hidden: true
+    recurse: true
+    file_type: file
+  register: dotfiles_macos_metadata
+  tags:
+    - install
+    - dotfiles
+    - stow
+    - cli
+
+- name: Remove macOS metadata files before stow
+  ansible.builtin.file:
+    path: "{{ item.path }}"
+    state: absent
+  loop: "{{ dotfiles_macos_metadata.files }}"
+  loop_control:
+    label: "{{ item.path | regex_replace('^' ~ ansible_env.HOME ~ '/', '~/') }}"
+  tags:
+    - install
+    - dotfiles
+    - stow
+    - cli
+
 - name: Ensure dotfiles backup directory exists
   ansible.builtin.file:
     path: "{{ ansible_env.HOME }}/.mac-setup-backups/{{ ansible_date_time.iso8601_basic_short }}/dotfiles"

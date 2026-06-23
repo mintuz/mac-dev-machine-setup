@@ -26,9 +26,9 @@
     label: "{{ item }}"
   register: gui_cask_install
   changed_when: >-
-    'Installing' in gui_cask_install.stdout or
-    'Upgrading' in gui_cask_install.stdout or
-    'installed' in gui_cask_install.stdout
+    'Installing' in (gui_cask_install.stdout | default('')) or
+    'Upgrading' in (gui_cask_install.stdout | default('')) or
+    'installed' in (gui_cask_install.stdout | default(''))
   failed_when: false
   when: item | length > 0
   tags:
@@ -77,9 +77,9 @@
     label: "{{ item }}"
   register: gui_optional_cask_install
   changed_when: >-
-    'Installing' in gui_optional_cask_install.stdout or
-    'Upgrading' in gui_optional_cask_install.stdout or
-    'installed' in gui_optional_cask_install.stdout
+    'Installing' in (gui_optional_cask_install.stdout | default('')) or
+    'Upgrading' in (gui_optional_cask_install.stdout | default('')) or
+    'installed' in (gui_optional_cask_install.stdout | default(''))
   failed_when: false
   when: item | length > 0
   tags:
@@ -105,9 +105,9 @@
   environment: "{{ homebrew_environment }}"
   register: brew_bundle_personal
   changed_when: >-
-    'Installing' in brew_bundle_personal.stdout or
-    'Upgrading' in brew_bundle_personal.stdout or
-    'Tapping' in brew_bundle_personal.stdout
+    'Installing' in (brew_bundle_personal.stdout | default('')) or
+    'Upgrading' in (brew_bundle_personal.stdout | default('')) or
+    'Tapping' in (brew_bundle_personal.stdout | default(''))
   failed_when: false
   when: machine_type == "personal"
   tags:
@@ -129,9 +129,9 @@
   environment: "{{ homebrew_environment }}"
   register: brew_bundle_work
   changed_when: >-
-    'Installing' in brew_bundle_work.stdout or
-    'Upgrading' in brew_bundle_work.stdout or
-    'Tapping' in brew_bundle_work.stdout
+    'Installing' in (brew_bundle_work.stdout | default('')) or
+    'Upgrading' in (brew_bundle_work.stdout | default('')) or
+    'Tapping' in (brew_bundle_work.stdout | default(''))
   failed_when: false
   when: machine_type == "work"
   tags:

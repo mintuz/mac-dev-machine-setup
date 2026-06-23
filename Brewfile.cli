@@ -1,4 +1,4 @@
-# Core Homebrew formulae installed for both personal and work profiles.
+# Core Homebrew formulae and CLI casks installed for both personal and work profiles.
 
 brew "git"
 brew "worktrunk"
@@ -29,7 +29,7 @@ brew "pscale"
 brew "deno"
 brew "go"
 brew "cmake"
-brew "codex"
+cask "codex"
 brew "opencode"
 brew "yt-dlp"
 brew "glances"

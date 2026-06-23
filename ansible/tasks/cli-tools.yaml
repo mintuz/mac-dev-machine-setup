@@ -3,9 +3,9 @@
   environment: "{{ homebrew_environment }}"
   register: brew_bundle_cli
   changed_when: >-
-    'Installing' in brew_bundle_cli.stdout or
-    'Upgrading' in brew_bundle_cli.stdout or
-    'Tapping' in brew_bundle_cli.stdout
+    'Installing' in (brew_bundle_cli.stdout | default('')) or
+    'Upgrading' in (brew_bundle_cli.stdout | default('')) or
+    'Tapping' in (brew_bundle_cli.stdout | default(''))
   tags:
     - install
     - productivity
@@ -16,9 +16,9 @@
   environment: "{{ homebrew_environment }}"
   register: brew_bundle_cli_optional
   changed_when: >-
-    'Installing' in brew_bundle_cli_optional.stdout or
-    'Upgrading' in brew_bundle_cli_optional.stdout or
-    'Tapping' in brew_bundle_cli_optional.stdout
+    'Installing' in (brew_bundle_cli_optional.stdout | default('')) or
+    'Upgrading' in (brew_bundle_cli_optional.stdout | default('')) or
+    'Tapping' in (brew_bundle_cli_optional.stdout | default(''))
   failed_when: false
   tags:
     - install

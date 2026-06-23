@@ -19,6 +19,7 @@ cask "authy", greedy: true
 cask "warp", greedy: true
 cask "ghostty", greedy: true
 cask "cursor", greedy: true
+cask "chatgpt", greedy: true
 cask "codex-app", greedy: true
 cask "claude-code", greedy: true
 cask "rotato", greedy: true

@@ -38,26 +38,32 @@
   args:
     executable: /bin/bash
   with_items:
-    - /Applications/Home.app
+    - /System/Applications/Home.app
     - "'' --type spacer --section apps --after Home"
     - /Applications/Cursor.app
     - /Applications/Warp.app
-    - "'' --type spacer --section apps --after Warp"
+    - /Applications/Xcode.app
+    - "'' --type spacer --section apps --after Xcode"
+    - /Applications/Codex.app
+    - /Applications/ChatGPT.app
+    - /Applications/Spokenly.app
+    - "'' --type spacer --section apps --after Spokenly"
     - /Applications/Safari.app
-    - "'' --type spacer --section apps --after Arc"
-    - /Applications/Drafts.app
+    - /Applications/Chromium.app
+    - "'' --type spacer --section apps --after Chromium"
     - /Applications/Obsidian.app
-    - /Applications/Things.app
     - /Applications/1Password.app
     - "'' --type spacer --section apps --after 1Password"
-    - /Applications/Mail.app
-    - /Applications/Calendar.app
-    - /Applications/Messages.app
+    - /System/Applications/Mail.app
+    - "'/Applications/Proton Mail.app'"
+    - /System/Applications/Calendar.app
+    - "'' --type spacer --section apps --after Calendar"
+    - /System/Applications/Messages.app
     - /Applications/Slack.app
     - /Applications/Discord.app
     - "'' --type spacer --section apps --after Discord"
-    - /Applications/Music.app
-    - /Applications/Podcasts.app
+    - /System/Applications/Music.app
+    - /System/Applications/Podcasts.app
   register: dock_add_results
   changed_when: dock_add_results.rc == 0
   failed_when: false
