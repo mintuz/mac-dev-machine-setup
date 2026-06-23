@@ -32,6 +32,7 @@ cask "slack", greedy: true
 cask "camo-studio", greedy: true
 cask "sketch", greedy: true
 cask "hammerspoon", greedy: true
+cask "raycast", greedy: true
 cask "font-fira-code"
 cask "font-hack"
 cask "font-jetbrains-mono"
