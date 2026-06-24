@@ -27,6 +27,8 @@ cask "rcmd", greedy: true
 cask "firefox", greedy: true
 cask "ungoogled-chromium", greedy: true
 cask "obsidian", greedy: true
+cask "notion", greedy: true
+cask "voicenotes", greedy: true
 cask "dropbox", greedy: true
 cask "zoom", greedy: true
 cask "slack", greedy: true

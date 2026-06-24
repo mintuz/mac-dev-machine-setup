@@ -51,6 +51,8 @@
     - /Applications/Safari.app
     - /Applications/Chromium.app
     - "'' --type spacer --section apps --after Chromium"
+    - /Applications/Drafts.app
+    - /Applications/Notion.app
     - /Applications/Obsidian.app
     - /Applications/1Password.app
     - "'' --type spacer --section apps --after 1Password"
