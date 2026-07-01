@@ -1,7 +1,12 @@
 # Core Homebrew formulae and CLI casks installed for both personal and work profiles.
 
+# Version control
 brew "git"
 brew "worktrunk"
+brew "gh"
+brew "lazygit"
+
+# Core shell utilities
 brew "curl"
 brew "wget"
 brew "tree"
@@ -11,35 +16,47 @@ brew "fzf"
 brew "z"
 brew "starship"
 brew "thefuck"
-brew "gh"
-brew "lazygit"
+brew "eza"
+brew "bat"
+brew "tldr"
+
+# Search, data, and network tools
 brew "ripgrep"
 brew "fd"
 brew "jq"
 brew "httpie"
+brew "yt-dlp"
+brew "aria2"
+
+# Language runtimes and package managers
 brew "yarn"
 brew "pnpm"
 brew "nvm"
 brew "pipx"
+brew "deno"
+brew "go"
+
+# Setup automation and Mac management
 brew "mas"
 brew "ansible"
 brew "mole"
+
+# Databases and infrastructure
 brew "mysql-client"
 brew "pscale"
-brew "deno"
-brew "go"
+
+# Build systems and Apple platform tooling
 brew "cmake"
-cask "codex"
-brew "opencode"
-brew "yt-dlp"
-brew "glances"
-brew "tldr"
-brew "aria2"
 brew "asciinema"
-brew "eza"
-brew "bat"
 brew "xcode-build-server"
 brew "xcbeautify"
 brew "swiftformat"
 brew "swift-format"
+
+# System monitoring
+brew "glances"
+
+# AI and app CLIs
+cask "codex"
+brew "opencode"
 cask "notion-cli"

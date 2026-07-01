@@ -43,14 +43,15 @@
     - /Applications/Cursor.app
     - /Applications/Warp.app
     - /Applications/Xcode.app
-    - "'' --type spacer --section apps --after Xcode"
+    - /Applications/Figma.app
+    - "'' --type spacer --section apps --after Figma"
     - /Applications/Codex.app
     - /Applications/ChatGPT.app
     - /Applications/Spokenly.app
     - "'' --type spacer --section apps --after Spokenly"
     - /Applications/Safari.app
-    - /Applications/Chromium.app
-    - "'' --type spacer --section apps --after Chromium"
+    - /Applications/Helium.app
+    - "'' --type spacer --section apps --after Helium"
     - /Applications/Drafts.app
     - /Applications/Notion.app
     - /Applications/Obsidian.app
