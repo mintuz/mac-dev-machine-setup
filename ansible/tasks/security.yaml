@@ -21,7 +21,7 @@
   ansible.builtin.copy:
     src: "{{ playbook_dir }}/.ssh/{{ personal_public_ssh_key }}"
     dest: "{{ lookup('env', 'HOME') }}/.ssh/{{ personal_public_ssh_key }}"
-    mode: "0644"
+    mode: "0600"
   tags:
     - install
     - ssh
@@ -30,7 +30,7 @@
   ansible.builtin.copy:
     src: "{{ playbook_dir }}/.ssh/{{ work_public_ssh_key }}"
     dest: "{{ lookup('env', 'HOME') }}/.ssh/{{ work_public_ssh_key }}"
-    mode: "0644"
+    mode: "0600"
   tags:
     - install
     - ssh
